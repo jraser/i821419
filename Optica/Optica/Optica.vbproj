@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B70DC21-A02E-452C-A155-ECCD52A5EC0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Optica.My.MyApplication</StartupObject>
+    <RootNamespace>Optica</RootNamespace>
+    <AssemblyName>Optica</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Optica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Optica.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.1.Core, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.1, Version=15.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\CategoriaDAO.vb" />
+    <Compile Include="Datos\CompraDAO.vb" />
+    <Compile Include="Datos\Conceptos.vb" />
+    <Compile Include="Datos\Conexion.vb" />
+    <Compile Include="Datos\DetalleCompraDAO.vb" />
+    <Compile Include="Datos\LoginDAO.vb" />
+    <Compile Include="Datos\MarcasDAO.vb" />
+    <Compile Include="Datos\ProductoDAO.vb" />
+    <Compile Include="Datos\SocioNegocioDAO.vb" />
+    <Compile Include="Datos\StockDAO.vb" />
+    <Compile Include="Datos\SubcategoriaDAO.vb" />
+    <Compile Include="Datos\UsuarioDAO.vb" />
+    <Compile Include="Logica\vCategoria.vb" />
+    <Compile Include="Logica\vCompra.vb" />
+    <Compile Include="Logica\vDetalleCompra.vb" />
+    <Compile Include="Logica\vLogin.vb" />
+    <Compile Include="Logica\vMarcas.vb" />
+    <Compile Include="Logica\vProductos.vb" />
+    <Compile Include="Logica\vSocioNegocio.vb" />
+    <Compile Include="Logica\vStock.vb" />
+    <Compile Include="Logica\vSubcategorias.vb" />
+    <Compile Include="Logica\vUsuarios.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCategoria.Designer.vb">
+      <DependentUpon>AyudaCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCliente.Designer.vb">
+      <DependentUpon>AyudaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCompra.Designer.vb">
+      <DependentUpon>AyudaCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AyudaMarca.Designer.vb">
+      <DependentUpon>AyudaMarca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaMarca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AyudaProducto.Designer.vb">
+      <DependentUpon>AyudaProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\AyudaProveedor.Designer.vb">
+      <DependentUpon>AyudaProveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\AyudaProveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Categorias.Designer.vb">
+      <DependentUpon>Categorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Categorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compra.Designer.vb">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CosultarStock.Designer.vb">
+      <DependentUpon>CosultarStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\CosultarStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inicio.Designer.vb">
+      <DependentUpon>Inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Marca.Designer.vb">
+      <DependentUpon>Marca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Marca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Productos.Designer.vb">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Rx.Designer.vb">
+      <DependentUpon>Rx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Rx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\SocioNegocio.Designer.vb">
+      <DependentUpon>SocioNegocio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\SocioNegocio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Usuario.Designer.vb">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\VerImagen.Designer.vb">
+      <DependentUpon>VerImagen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\VerImagen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaCategoria.resx">
+      <DependentUpon>AyudaCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaCliente.resx">
+      <DependentUpon>AyudaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaCompra.resx">
+      <DependentUpon>AyudaCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaMarca.resx">
+      <DependentUpon>AyudaMarca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaProducto.resx">
+      <DependentUpon>AyudaProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\AyudaProveedor.resx">
+      <DependentUpon>AyudaProveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Categorias.resx">
+      <DependentUpon>Categorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compra.resx">
+      <DependentUpon>Compra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\CosultarStock.resx">
+      <DependentUpon>CosultarStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inicio.resx">
+      <DependentUpon>Inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Marca.resx">
+      <DependentUpon>Marca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Productos.resx">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Rx.resx">
+      <DependentUpon>Rx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\SocioNegocio.resx">
+      <DependentUpon>SocioNegocio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Usuario.resx">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\VerImagen.resx">
+      <DependentUpon>VerImagen.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reportes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-close-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_authorized.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul-claro-abstracto-con-efectos-de-degradado_91-2147487381.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8774629327_a3b01eca14_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gnome-edit-delete.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\look.com.ua-55580.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract_blue_background_vector_graphic_1_148034.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

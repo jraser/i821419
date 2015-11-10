@@ -1,0 +1,52 @@
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Resources.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.fSocioNegocio.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.vbproj.GenerateResource.Cache
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\bin\Debug\Optica.exe
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\bin\Debug\Optica.pdb
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\bin\Debug\Optica.xml
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.exe
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.xml
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.pdb
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.exe.licenses
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Inicio.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Login.resources
+C:\Users\Administrador.VIWEB03\documents\visual studio 2013\Projects\Optica\Optica\obj\Debug\Optica.vbprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\documents\visual studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Marca.resources
+C:\Users\Administrador.VIWEB03\documents\visual studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Categorias.resources
+C:\Users\Administrador.VIWEB03\documents\visual studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Productos.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.AyudaMarca.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.AyudaCategoria.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Compra.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.AyudaProveedor.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.AyudaProducto.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.AyudaCompra.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.CosultarStock.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.VerImagen.resources
+C:\Users\Administrador.VIWEB03\Documents\Visual Studio 2013\Projects\Optica\Optica\obj\Debug\Optica.Rx.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.exe
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.xml
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.pdb
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\bin\Debug\Optica.exe
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\bin\Debug\Optica.pdb
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\bin\Debug\Optica.xml
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.vbprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Resources.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaCategoria.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaCompra.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaMarca.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaProducto.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaProveedor.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Categorias.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Compra.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.CosultarStock.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Inicio.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Login.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Marca.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Productos.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Rx.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.fSocioNegocio.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.VerImagen.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.vbproj.GenerateResource.Cache
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.exe.licenses
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.Usuario.resources
+C:\Users\Administrador.VIWEB03\Desktop\ultimo\Optica\Optica\obj\Debug\Optica.AyudaCliente.resources
